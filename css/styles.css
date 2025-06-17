@@ -647,20 +647,22 @@ img {
 
 .footer-subscribe-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-subscribe-form-input {
-    margin-right: 24px;
-    padding: 8px 16px;
+    padding-left: 16px;
     border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background-color: #2e2f42;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
     font-family: inherit;
     font-size: 12px;
     line-height: 2;
+    letter-spacing: 0.04em;
     color: #ffffff;
 }
 
@@ -674,13 +676,15 @@ img {
 }
 
 .subscribe-btn {
+    min-width: 165px;
     display: flex;
-    gap: 16px;
     justify-content: center;
     align-items: center;
-    padding: 8px 24px;
     background-color: #4d5ae5;
     font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #ffffff;
     box-shadow: none;
     border: none;
@@ -697,6 +701,7 @@ img {
 
 .subscribe-btn-icon {
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 .visually-hidden {
